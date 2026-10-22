@@ -5,12 +5,18 @@ import {
 } from 'lucide-react'
 
 const highlights = [
-  {
-    icon: Code2,
-    title: 'Frontend Development',
-    description:
-      'Building reusable, responsive interfaces with a focus on usability and maintainability.',
-  },
+//   {
+//     icon: Code2,
+//     title: 'Frontend Development',
+//     description:
+//       'Building reusable, responsive interfaces with a focus on usability and maintainability.',
+//   },
+//   {
+//     icon: Code2,
+//     title: 'Frontend Development',
+//     description:
+//       'Building reusable, responsive interfaces with a focus on usability and maintainability.',
+//   },
   {
     icon: Database,
     title: 'Full-Stack Development',
