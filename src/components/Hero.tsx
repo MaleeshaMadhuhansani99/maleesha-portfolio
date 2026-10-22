@@ -1,9 +1,5 @@
-import {
-  ArrowDown,
-  ArrowUpRight,
-  Code2,
-} from 'lucide-react'
-import { FaGithub, FaLinkedin } from "react-icons/fa"; 
+import {ArrowDown, ArrowUpRight, Code2} from 'lucide-react'
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 
 const GITHUB_URL = 'https://github.com/MaleeshaMadhuhansani99'
 
@@ -40,8 +36,7 @@ export default function Hero() {
             <span className="text-orange-600 dark:text-orange-400">
               Maleesha.
             </span>
-            <br />
-            I build thoughtful digital experiences.
+            <br />I build thoughtful digital experiences.
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-8 text-zinc-600 dark:text-zinc-300 sm:text-lg">
@@ -62,7 +57,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="/Maleesha-Madhuhansani-CV.pdf"
+              href={`${import.meta.env.BASE_URL}Maleesha-Madhuhansani-CV.pdf`}
               download="Maleesha-Madhuhansani-CV.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-6 py-3.5 text-sm font-semibold text-zinc-800 transition hover:border-orange-500 hover:text-orange-700 dark:border-zinc-700 dark:text-zinc-100 dark:hover:border-orange-400 dark:hover:text-orange-400"
             >
@@ -140,10 +135,7 @@ export default function Hero() {
                 </p>
 
                 <p className="pl-5">
-                  <span className="text-sky-700 dark:text-sky-300">
-                    name
-                  </span>
-                  :{' '}
+                  <span className="text-sky-700 dark:text-sky-300">name</span>:{' '}
                   <span className="text-emerald-700 dark:text-emerald-300">
                     &apos;Maleesha&apos;
                   </span>
@@ -151,10 +143,7 @@ export default function Hero() {
                 </p>
 
                 <p className="pl-5">
-                  <span className="text-sky-700 dark:text-sky-300">
-                    role
-                  </span>
-                  :{' '}
+                  <span className="text-sky-700 dark:text-sky-300">role</span>:{' '}
                   <span className="text-emerald-700 dark:text-emerald-300">
                     &apos;Software Engineer&apos;
                   </span>
@@ -162,10 +151,8 @@ export default function Hero() {
                 </p>
 
                 <p className="pl-5">
-                  <span className="text-sky-700 dark:text-sky-300">
-                    focus
-                  </span>
-                  : [
+                  <span className="text-sky-700 dark:text-sky-300">focus</span>:
+                  [
                 </p>
 
                 <p className="pl-10 text-emerald-700 dark:text-emerald-300">
