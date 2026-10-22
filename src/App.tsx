@@ -1,20 +1,19 @@
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-stone-50 p-6 text-center">
-      <div>
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-orange-600">
-          My Portfolio
-        </p>
+    <div className="min-h-screen bg-white text-zinc-900 transition-colors duration-300 dark:bg-zinc-950 dark:text-zinc-100">
+      <Navbar />
 
-        <h1 className="text-4xl font-bold tracking-tight text-stone-900 sm:text-6xl">
-          Hello, World!
-        </h1>
-
-        <p className="mt-4 text-lg text-stone-600">
-          My Software Engineering Journey Starts Here.
-        </p>
-      </div>
-    </main>
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+      </main>
+    </div>
   )
 }
 
