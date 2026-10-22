@@ -1,5 +1,4 @@
 import {
-  Code2,
   Database,
   Users,
 } from 'lucide-react'
