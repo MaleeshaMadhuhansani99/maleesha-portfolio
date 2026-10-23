@@ -1,4 +1,4 @@
-import {ArrowDown, ArrowUpRight, Code2} from 'lucide-react'
+import {/*ArrowDown,*/ ArrowUpRight, Code2, Eye} from 'lucide-react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 
 const GITHUB_URL = 'https://github.com/MaleeshaMadhuhansani99'
@@ -56,13 +56,23 @@ export default function Hero() {
               <ArrowUpRight size={18} />
             </a>
 
-            <a
+            {/* <a
               href={`${import.meta.env.BASE_URL}Maleesha-Madhuhansani-CV.pdf`}
               download="Maleesha-Madhuhansani-CV.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-6 py-3.5 text-sm font-semibold text-zinc-800 transition hover:border-orange-500 hover:text-orange-700 dark:border-zinc-700 dark:text-zinc-100 dark:hover:border-orange-400 dark:hover:text-orange-400"
             >
               Download CV
               <ArrowDown size={17} />
+            </a> */}
+
+            <a
+              href={`${import.meta.env.BASE_URL}Maleesha-Madhuhansani-CV.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-zinc-300 px-6 py-3.5 text-sm font-semibold text-zinc-800 transition hover:border-orange-500 hover:text-orange-700 dark:border-zinc-700 dark:text-zinc-100 dark:hover:border-orange-400 dark:hover:text-orange-400"
+            >
+              View CV
+              <Eye size={17} />
             </a>
           </div>
 
