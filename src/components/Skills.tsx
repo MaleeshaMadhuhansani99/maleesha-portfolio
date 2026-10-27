@@ -70,15 +70,6 @@ const skillGroups = [
   },
 ]
 
-const softSkills = [
-  'Communication',
-  'Teamwork',
-  'Analytical Thinking',
-  'Problem-Solving',
-  'Adaptability',
-  'Continuous Learning',
-]
-
 export default function Skills() {
   return (
     <section
