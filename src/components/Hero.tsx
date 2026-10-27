@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative isolate overflow-hidden bg-white px-5 py-16 dark:bg-zinc-950 sm:px-8 sm:py-24 lg:py-28"
+      className="relative isolate overflow-hidden bg-white px-5 py-4 dark:bg-zinc-950 sm:px-8 sm:py-24 lg:py-4"
     >
       {/* Decorative background shapes */}
       <div
@@ -183,7 +183,7 @@ export default function Hero() {
             </div>
 
             {/* Technology labels */}
-            <div className="border-t border-zinc-200 bg-zinc-50 px-5 py-5 dark:border-zinc-800 dark:bg-zinc-950/60 sm:px-7">
+            {/* <div className="border-t border-zinc-200 bg-zinc-50 px-5 py-5 dark:border-zinc-800 dark:bg-zinc-950/60 sm:px-7">
               <p className="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-zinc-500 dark:text-zinc-400">
                 Working with
               </p>
@@ -200,13 +200,13 @@ export default function Hero() {
                   ),
                 )}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
 
       {/* Scroll cue */}
-      <div className="mx-auto mt-16 flex max-w-6xl items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-400 sm:mt-20">
+      <div className="mx-auto mt-4 flex max-w-6xl items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-400 sm:mt-20">
         <span className="h-px w-10 bg-zinc-300 dark:bg-zinc-700" />
         Scroll to explore
       </div>

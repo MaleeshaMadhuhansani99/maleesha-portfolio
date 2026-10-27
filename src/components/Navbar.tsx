@@ -4,10 +4,12 @@ import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {useTheme} from '../hooks/useTheme'
 
 const navItems = [
-  {label: 'About', href: '#about'},
-  {label: 'Experience', href: '#experience'},
-  {label: 'Projects', href: '#projects'},
-  {label: 'Contact', href: '#contact'},
+  { label: 'About', href: '#about' },
+  { label: 'Skills', href: '#skills' },
+  { label: 'Achievements', href: '#achievements' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Contact', href: '#contact' },
 ]
 
 export default function Navbar() {

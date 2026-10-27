@@ -138,7 +138,7 @@ export default function Skills() {
         </div>
 
         {/* Soft skills */}
-        <div className="mt-10 rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800 sm:p-8">
+        {/* <div className="mt-10 rounded-2xl border border-zinc-200 p-6 dark:border-zinc-800 sm:p-8">
           <h3 className="mb-4 font-semibold text-zinc-900 dark:text-white">
             Beyond the code
           </h3>
@@ -153,7 +153,7 @@ export default function Skills() {
               </span>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

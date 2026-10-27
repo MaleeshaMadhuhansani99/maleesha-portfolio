@@ -1,32 +1,24 @@
-import {
-  Database,
-  Users,
-} from 'lucide-react'
+
+import { Code2, GraduationCap, Lightbulb } from 'lucide-react'
 
 const highlights = [
-//   {
-//     icon: Code2,
-//     title: 'Frontend Development',
-//     description:
-//       'Building reusable, responsive interfaces with a focus on usability and maintainability.',
-//   },
-//   {
-//     icon: Code2,
-//     title: 'Frontend Development',
-//     description:
-//       'Building reusable, responsive interfaces with a focus on usability and maintainability.',
-//   },
   {
-    icon: Database,
+    icon: Code2,
     title: 'Full-Stack Development',
     description:
-      'Developing application features, RESTful APIs, and integrations with relational databases.',
+      'Building responsive web interfaces, application features, and API integrations.',
   },
   {
-    icon: Users,
-    title: 'Team Collaboration',
+    icon: GraduationCap,
+    title: 'Computer Science Graduate',
     description:
-      'Working with cross-functional teams, stakeholders, and Agile Scrum processes to deliver features.',
+      'BSc in Computer Science from the University of Colombo, completed in 2024.',
+  },
+  {
+    icon: Lightbulb,
+    title: 'Continuous Learning',
+    description:
+      'Focused on writing maintainable code, solving problems, and improving my technical skills.',
   },
 ]
 
@@ -40,51 +32,78 @@ export default function About() {
         {/* Section heading */}
         <div className="mb-12 max-w-3xl">
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-orange-600 dark:text-orange-400">
-            A little about me
+            About Me
           </p>
 
           <h2 className="text-3xl font-bold tracking-tight text-zinc-950 dark:text-white sm:text-4xl">
-            Turning ideas into{' '}
-            <span className="text-orange-600 dark:text-orange-400">
-              reliable software.
-            </span>
+            Building meaningful digital experiences.
           </h2>
         </div>
 
-        {/* About content */}
-        <div className="grid gap-10 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
+        {/* Introduction and highlights */}
+        <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-16">
           <div className="space-y-5 text-base leading-8 text-zinc-600 dark:text-zinc-300">
             <p>
-              I&apos;m an Associate Software Engineer specializing in
-              full-stack web development. I enjoy turning requirements
-              into responsive, user-friendly application features while
-              writing clean and maintainable code.
+              I&apos;m an Associate Software Engineer with{' '}
+              <span className="font-semibold text-zinc-950 dark:text-white">
+                2+ years of software development experience
+              </span>
+              , including professional roles and an internship. I specialize
+              in full-stack web development and enjoy building responsive,
+              maintainable, and user-friendly applications.
             </p>
 
             <p>
-              At GIMME Marketplace and IQZ Systems, I&apos;ve contributed
-              to application features, reusable UI components, API
-              integrations, and software improvements. My experience
-              includes working with React, state management tools,
-              Node.js, NestJS, and PostgreSQL.
+              My experience includes developing application features,
+              creating reusable UI components, integrating RESTful APIs,
+              and improving existing software. I enjoy collaborating with
+              teams to turn requirements into practical software solutions.
             </p>
 
             <p>
-              Earlier, as a Software Engineer Intern at the NutriTech
-              Analytics Group research laboratory at UCSC, I worked
-              across requirements analysis, application design, feature
-              development, and testing using the MERN stack.
+              I hold a{' '}
+              <span className="font-semibold text-zinc-950 dark:text-white">
+                Bachelor of Science (BSc) in Computer Science
+              </span>{' '}
+              from the University of Colombo, completed in 2024. I&apos;m
+              passionate about continuous learning, thoughtful problem-solving,
+              and writing clean, maintainable code.
             </p>
 
-            <p>
-              I value collaboration, thoughtful problem-solving, and
-              continuous learning. I aim to create software that is
-              maintainable, practical, and useful to the people who use it.
-            </p>
+            {/* Experience and degree highlights */}
+            <div className="grid gap-4 pt-3 sm:grid-cols-2">
+              <div className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-950">
+                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                  Software Development
+                </p>
+
+                <p className="mt-1 text-2xl font-bold text-orange-600 dark:text-orange-400">
+                  2+ Years
+                </p>
+
+                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                  Professional roles and internship experience
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-zinc-200 bg-white p-5 dark:border-zinc-800 dark:bg-zinc-950">
+                <p className="text-sm text-zinc-500 dark:text-zinc-400">
+                  Education
+                </p>
+
+                <p className="mt-1 text-lg font-bold text-zinc-950 dark:text-white">
+                  BSc in Computer Science
+                </p>
+
+                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+                  University of Colombo · 2021–2024
+                </p>
+              </div>
+            </div>
           </div>
 
-          {/* Professional highlights */}
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+          {/* Key strengths */}
+          <div className="grid content-start gap-4">
             {highlights.map((item) => {
               const Icon = item.icon
 
@@ -93,12 +112,12 @@ export default function About() {
                   key={item.title}
                   className="group flex gap-4 rounded-2xl border border-zinc-200 bg-white p-5 transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-lg hover:shadow-zinc-900/5 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-orange-800 dark:hover:shadow-black/20"
                 >
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange-50 text-orange-600 transition group-hover:bg-orange-100 dark:bg-orange-950/60 dark:text-orange-400 dark:group-hover:bg-orange-950">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-orange-50 text-orange-600 dark:bg-orange-950/60 dark:text-orange-400">
                     <Icon size={22} />
                   </div>
 
                   <div>
-                    <h3 className="mb-1 font-semibold text-zinc-900 dark:text-white">
+                    <h3 className="mb-1 font-semibold text-zinc-950 dark:text-white">
                       {item.title}
                     </h3>
 
