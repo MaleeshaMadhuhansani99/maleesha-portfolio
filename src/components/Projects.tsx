@@ -59,7 +59,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="scroll-mt-24 border-t border-zinc-200 bg-zinc-50 px-5 py-20 dark:border-zinc-800 dark:bg-zinc-900/40 sm:px-8 sm:py-24"
+      className="scroll-mt-8 border-t border-zinc-200 bg-zinc-50 px-5 py-8 dark:border-zinc-800 dark:bg-zinc-900/40 sm:px-8 sm:py-8"
     >
       <div className="mx-auto max-w-6xl">
         {/* Section heading */}

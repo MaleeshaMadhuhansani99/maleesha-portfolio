@@ -41,9 +41,7 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-base leading-8 text-zinc-600 dark:text-zinc-300 sm:text-lg">
             I&apos;m a Computer Science graduate with professional experience
-            developing web applications across frontend and backend. I enjoy
-            turning requirements into responsive, maintainable, and
-            user-friendly software.
+            developing web applications across frontend and backend.
           </p>
 
           {/* Main actions */}
@@ -206,7 +204,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll cue */}
-      <div className="mx-auto mt-4 flex max-w-6xl items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-400 sm:mt-20">
+      <div className="mx-auto mt-4 flex max-w-6xl items-center gap-3 text-xs font-medium uppercase tracking-[0.2em] text-zinc-400">
         <span className="h-px w-10 bg-zinc-300 dark:bg-zinc-700" />
         Scroll to explore
       </div>

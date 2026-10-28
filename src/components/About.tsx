@@ -1,5 +1,4 @@
-
-import { Code2, GraduationCap, Lightbulb } from 'lucide-react'
+import {Code2, Rocket } from 'lucide-react'
 
 const highlights = [
   {
@@ -8,17 +7,12 @@ const highlights = [
     description:
       'Building responsive web interfaces, application features, and API integrations.',
   },
+
   {
-    icon: GraduationCap,
-    title: 'Computer Science Graduate',
+    icon: Rocket,
+    title: 'Self-Motivated & Quick to Learn',
     description:
-      'BSc in Computer Science from the University of Colombo, completed in 2024.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Continuous Learning',
-    description:
-      'Focused on writing maintainable code, solving problems, and improving my technical skills.',
+      'Eager to learn new technologies, adapt to changing requirements, and continuously improve my skills to build better software.',
   },
 ]
 
@@ -26,7 +20,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="scroll-mt-24 border-t border-zinc-200 bg-zinc-50 px-5 py-20 dark:border-zinc-800 dark:bg-zinc-900/40 sm:px-8 sm:py-24"
+      className="scroll-mt-8 border-t border-zinc-200 bg-zinc-50 px-5 py-8 dark:border-zinc-800 dark:bg-zinc-900/40 sm:px-8 sm:py-8"
     >
       <div className="mx-auto max-w-6xl">
         {/* Section heading */}
@@ -48,19 +42,19 @@ export default function About() {
               <span className="font-semibold text-zinc-950 dark:text-white">
                 2+ years of software development experience
               </span>
-              , including professional roles and an internship. I specialize
-              in full-stack web development and enjoy building responsive,
+              , including professional roles and an internship. I specialize in
+              full-stack web development and enjoy building responsive,
               maintainable, and user-friendly applications.
             </p>
 
             <p>
-              My experience includes developing application features,
-              creating reusable UI components, integrating RESTful APIs,
-              and improving existing software. I enjoy collaborating with
-              teams to turn requirements into practical software solutions.
+              My experience includes developing application features, creating
+              reusable UI components, integrating RESTful APIs, and improving
+              existing software. I enjoy collaborating with teams to turn
+              requirements into practical software solutions.
             </p>
 
-            <p>
+            {/* <p>
               I hold a{' '}
               <span className="font-semibold text-zinc-950 dark:text-white">
                 Bachelor of Science (BSc) in Computer Science
@@ -68,7 +62,7 @@ export default function About() {
               from the University of Colombo, completed in 2024. I&apos;m
               passionate about continuous learning, thoughtful problem-solving,
               and writing clean, maintainable code.
-            </p>
+            </p> */}
 
             {/* Experience and degree highlights */}
             <div className="grid gap-4 pt-3 sm:grid-cols-2">
