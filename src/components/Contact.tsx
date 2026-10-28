@@ -86,7 +86,7 @@ export default function Contact() {
                 href={item.href}
                 target={item.external ? '_blank' : undefined}
                 rel={item.external ? 'noopener noreferrer' : undefined}
-                className="group flex min-w-0 items-start gap-4 rounded-2xl border border-zinc-200 bg-zinc-50/70 p-5 transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:bg-white hover:shadow-lg hover:shadow-zinc-900/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-orange-900 dark:hover:bg-zinc-900 dark:hover:shadow-black/20 sm:p-6"
+                className="group flex min-w-0 items-start gap-4 rounded-2xl border border-zinc-200 bg-zinc-50/70 p-4 transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:bg-white hover:shadow-lg hover:shadow-zinc-900/5 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 dark:border-zinc-800 dark:bg-zinc-900/40 dark:hover:border-orange-900 dark:hover:bg-zinc-900 dark:hover:shadow-black/20 sm:p-6"
               >
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-orange-100 text-orange-700 transition group-hover:bg-orange-600 group-hover:text-white dark:bg-orange-950 dark:text-orange-400 dark:group-hover:bg-orange-500 dark:group-hover:text-white">
                   <Icon size={22} />
